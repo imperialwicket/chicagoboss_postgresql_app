@@ -1,0 +1,8 @@
+{application, chicagoboss_postgresql_app, [
+        {description, "Chicago Boss PostgreSQL Sample App."},
+        {vsn, "0.0.1"},
+        {modules, []},
+        {registered, []},
+        {applications, [kernel, stdlib, crypto, boss]},
+        {env, []}
+    ]}.
